@@ -96,7 +96,12 @@ def last_five(input_list):
 
     """
 
-    return []
+    length_list = 0
+
+    for i in input_list:
+        length_list += 1
+
+    return input_list[(length_list-5):]
 
 
 def middle(input_list):
