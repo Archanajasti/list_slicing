@@ -157,7 +157,7 @@ def replace_head(input_list):
     True
 
     """
-    
+    input_list[0] = 42
 
     pass
 
@@ -207,9 +207,7 @@ def delete_third_and_seventh(input_list):
     True
 
     """
-
     pass
-
 
 def delete_middle(input_list):
     """Remove all elements from input_list except the first two and last two.
